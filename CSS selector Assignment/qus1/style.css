@@ -1,0 +1,45 @@
+/* b ans */
+
+nav a {
+  color: red;
+}
+
+nav > h2 {
+  color: greenyellow;
+  background-color: aqua;
+}
+
+ul + p {
+  color: red;
+}
+
+/* c ans */
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a [class="active"] {
+  color: aqua;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: bisque;
+}
+
+/* d ans */
+
+p:last-child::after {
+  content: ".....";
+}
+
+li::marker {
+  color: yellow;
+}
+
+p:nth-child(even)::first-letter {
+  font-size: 30px;
+  color: pink;
+}
